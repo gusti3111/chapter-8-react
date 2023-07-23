@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/your-repository-name/static/css/main.3e15c242.css",
-    "main.js": "/your-repository-name/static/js/main.cc8d3d04.js",
-    "static/media/batu.png": "/your-repository-name/static/media/batu.efb552d479856554e38e.png",
-    "static/media/rockpaperstrategy-1600.jpg": "/your-repository-name/static/media/rockpaperstrategy-1600.6eaa3fe59dbf55fd70e2.jpg",
-    "static/media/gunting.png": "/your-repository-name/static/media/gunting.50759991b82b5c77fa42.png",
-    "static/media/kertas.png": "/your-repository-name/static/media/kertas.fc695d75bc2f09ed155f.png",
-    "index.html": "/your-repository-name/index.html",
-    "main.3e15c242.css.map": "/your-repository-name/static/css/main.3e15c242.css.map",
-    "main.cc8d3d04.js.map": "/your-repository-name/static/js/main.cc8d3d04.js.map"
+    "main.css": "/chapter-8-react/static/css/main.87bd3587.css",
+    "main.js": "/chapter-8-react/static/js/main.327b4a85.js",
+    "static/media/batu.png": "/chapter-8-react/static/media/batu.efb552d479856554e38e.png",
+    "static/media/rockpaperstrategy-1600.jpg": "/chapter-8-react/static/media/rockpaperstrategy-1600.6eaa3fe59dbf55fd70e2.jpg",
+    "static/media/gunting.png": "/chapter-8-react/static/media/gunting.50759991b82b5c77fa42.png",
+    "static/media/kertas.png": "/chapter-8-react/static/media/kertas.fc695d75bc2f09ed155f.png",
+    "index.html": "/chapter-8-react/index.html",
+    "main.87bd3587.css.map": "/chapter-8-react/static/css/main.87bd3587.css.map",
+    "main.327b4a85.js.map": "/chapter-8-react/static/js/main.327b4a85.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e15c242.css",
-    "static/js/main.cc8d3d04.js"
+    "static/css/main.87bd3587.css",
+    "static/js/main.327b4a85.js"
   ]
 }

@@ -1,0 +1,114 @@
+
+  /* .player{
+    display: flex;
+    flex-direction: column;
+  } 
+  .computer{
+    display: flex;
+    flex-direction: column;
+  }  */
+  
+  .versus{
+    color: #BD0000;
+    font-size: 144px; 
+     display: initial; 
+   
+   } 
+   .pl-win{
+    position: absolute;
+    width: 271.11px;
+    height: 166.93px;
+    color: white;
+    padding-top: 22%;
+    
+    background: #4C9654;
+    border-radius: 10px;
+    transform: rotate(-28.87deg);
+    display: none;
+    
+    
+  }
+  .com-win{
+    position: absolute;
+    width: 271.11px;
+    height: 166.93px;
+    color: white;
+    padding-top: 22%;
+    
+    background: #4C9654;
+    border-radius: 10px;
+    transform: rotate(-28.87deg);
+    display: none;
+  
+    
+  }
+  .draw{
+     background: #035B0C;
+     position: absolute;
+     width: 271.11px;
+     height: 166.93px;
+     color: white;
+     padding-top: 22%;
+     
+     background: #4C9654;
+     border-radius: 10px;
+     transform: rotate(-28.87deg);
+     display: none;
+    
+     
+    
+  }
+  .refresh{
+    position: absolute;
+    width: 77px;
+    height: 71px;
+    margin-top: 238px;
+    align-items: center;
+    margin-left: 120px;
+  
+    .play-r, .play-p, .play-s{
+    width: 128px;
+    height: 92px;
+    
+    
+  }
+  .r:hover{
+    border: 223px 204px;
+    left: 903px; 
+    top: 209px;
+    
+    border-radius: 30px;
+    transition-duration: 1s;
+  
+    transform: scale(1.1) rotate(30deg );
+  
+  } 
+  
+  .p:hover{
+    border: 223px 204px;
+    /* left: 903px; */
+    top: 209px;
+    
+    border-radius: 30px;
+    transition-duration: 1s;
+  
+    transform: scale(1.1) rotate(30deg );
+  
+  } 
+  .s:hover{
+    border: 223px 204px;
+    /* left: 903px; */
+    top: 209px;
+    
+    border-radius: 30px;
+    transition-duration: 1s;
+  
+    transform: scale(1.1) rotate(30deg );
+  
+  } 
+  
+  
+  
+  
+  
+  } 

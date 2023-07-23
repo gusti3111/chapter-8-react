@@ -1,0 +1,81 @@
+
+.main-game-lists{
+    display: flex;
+    height: 5vh;
+   
+
+    
+  
+}
+.game-lists{
+   width : 100%;
+}
+
+/* button to vs com game */
+.game-lists .buttons-com {
+    margin-top: 20px;
+    margin-left: -35px;
+   
+    opacity:0.7 ;
+
+}
+
+
+/* button hover to vs com */
+.game-lists .buttons-com:hover {
+    color: black;
+    background-color: rgba(207, 118, 118, 0.925);
+    box-shadow: 0 0 25px  rgba(245, 173, 66, 0.75),
+    0 0 25px  rgba(245, 173, 66, 0.75),
+    0 0 50px   rgba(245, 173, 66, 0.75),
+    0 0 100px   rgba(245, 173, 66, 0.75);
+}
+.create-room .buttons-com {
+    margin-top: 150px;
+ 
+    opacity:0.7 ;
+
+}
+/* button hover to create room*/
+.create-room .buttons-com:hover {
+    
+    /* background-color: rgba(207, 118, 118, 0.925); */
+    box-shadow: 0 0 25px  rgba(231, 68, 68, 0.815),
+    0 0 25px  rgba(245, 102, 66, 0.75),
+    0 0 50px   rgba(245, 93, 66, 0.75),
+    0 0 100px   rgba(245, 72, 66, 0.75);
+}
+
+/* rooms styling */
+.rooms{
+    margin-top: 20px;
+    margin-left: 20px;
+   
+    
+}
+.rooms-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.profile{
+   width: 455px;
+
+   
+}
+.profile-contents{
+    margin-top: 70px;
+    width: 400px;
+    height: 500px;
+   
+}
+/* /* .rooms .rooms-cards{
+    display: flex;
+    flex-direction: row;
+
+} */
+.rooms .rooms-cards{
+    margin-top: 50px;
+
+} 

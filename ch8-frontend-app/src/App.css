@@ -1,0 +1,449 @@
+/* html */
+html{
+  height: 100%;
+}
+/* body */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url('../src/components/assets/rockpaperstrategy-1600.jpg');
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  height: 30vh;
+}
+
+.layout {
+  opacity: 0.8;
+}
+
+/* styling for box components */
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgb(36, 35, 34);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.774);
+  border-radius: 40px;
+}
+
+.box:hover {
+  box-shadow: 0 0 25px rgba(245, 173, 66, 0.75),
+    0 0 25px rgba(245, 173, 66, 0.75),
+    0 0 50px rgba(245, 173, 66, 0.75),
+    0 0 100px rgba(245, 173, 66, 0.75);
+
+}
+
+.box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.box .user-box {
+  position: relative;
+}
+
+/* end of box styling */
+
+/* styling placeholder components */
+.user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+
+  pointer-events: none;
+  transition: .5s;
+}
+
+.user-box input:focus~label,
+.user-box input:valid~label {
+  top: -20px;
+  left: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+/* end placeholder styling */
+
+/* card components styling */
+.card {
+  background-color: black;
+  color: beige;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+
+.card:hover {
+  box-shadow: 0 0 25px rgba(245, 173, 66, 0.75),
+    0 0 25px rgba(245, 173, 66, 0.75),
+    0 0 50px rgba(245, 173, 66, 0.75),
+    0 0 100px rgba(245, 173, 66, 0.75);
+}
+
+
+/* end of card styling */
+
+
+
+/* style for Button components */
+.buttons {
+  position: relative;
+  display: inline-block;
+  /* padding: 10px 20px; */
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px
+}
+
+
+.buttons:hover {
+  background: rgba(245, 173, 66, 0.75);
+  color: black;
+  border-radius: 21px;
+  box-shadow: 0 0 25px rgba(245, 173, 66, 0.75),
+    0 0 25px rgba(245, 173, 66, 0.75),
+    0 0 50px rgba(245, 173, 66, 0.75),
+    0 0 100px rgba(245, 173, 66, 0.75);
+}
+
+/* room stylung */
+/* room place holder  styling */
+
+.room-placeholder input {
+  background-color: white;
+  width: 300px;
+  /* Set the desired width */
+  height: 40px;
+  /* Set the desired height */
+  padding: 8px;
+  /* Add padding to adjust the inner content spacing */
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  border-radius: 40px;
+  margin-top: 100px;
+
+}
+
+.choose-one h1 {
+  color: red;
+  font-weight: bold;
+}
+
+/* player choose styling */
+#r,
+#p,
+#s {
+  width: 128px;
+  height: 92px;
+
+
+}
+
+#r:hover {
+  border: 223px 204px;
+  /* left: 903px; */
+  top: 209px;
+
+  border-radius: 30px;
+  transition-duration: 1s;
+
+  transform: scale(1.1) rotate(30deg);
+
+}
+
+#p:hover {
+  border: 223px 204px;
+  /* left: 903px; */
+  top: 209px;
+
+  border-radius: 30px;
+  transition-duration: 1s;
+
+  transform: scale(1.1) rotate(30deg);
+
+}
+
+#s:hover {
+  border: 223px 204px;
+  /* left: 903px; */
+  top: 209px;
+
+  border-radius: 30px;
+  transition-duration: 1s;
+
+  transform: scale(1.1) rotate(30deg);
+
+}
+
+
+
+/* vs com  styling*/
+.vsCom {
+  background-color: black;
+}
+
+.vsCom:hover {
+  box-shadow: 0 0 25px rgba(245, 173, 66, 0.75),
+    0 0 25px rgba(245, 173, 66, 0.75),
+    0 0 50px rgba(245, 173, 66, 0.75),
+    0 0 100px rgba(245, 173, 66, 0.75);
+
+}
+
+.player-com {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+
+
+}
+
+.r-com,
+.p-com,
+.s-com,
+.r,
+.p,
+.s {
+  width: 128px;
+  height: 92px;
+  margin-top: 24px;
+
+
+}
+
+.r:hover {
+  border: 223px 204px;
+  /* left: 903px; */
+  top: 209px;
+
+  border-radius: 30px;
+  transition-duration: 1s;
+
+  transform: scale(1.1) rotate(30deg);
+
+}
+
+.p:hover {
+  border: 223px 204px;
+  /* left: 903px; */
+  top: 209px;
+
+  border-radius: 30px;
+  transition-duration: 1s;
+
+  transform: scale(1.1) rotate(30deg);
+
+}
+
+.s:hover {
+  border: 223px 204px;
+  /* left: 903px; */
+  top: 209px;
+
+  border-radius: 30px;
+  transition-duration: 1s;
+
+  transform: scale(1.1) rotate(30deg);
+
+}
+
+.r-com:hover {
+  border: 223px 204px;
+  /* left: 903px; */
+  top: 209px;
+
+  border-radius: 30px;
+  transition-duration: 1s;
+
+  transform: scale(1.1) rotate(30deg);
+
+}
+
+.p-com:hover {
+  border: 223px 204px;
+  /* left: 903px; */
+  top: 209px;
+
+  border-radius: 30px;
+  transition-duration: 1s;
+
+  transform: scale(1.1) rotate(30deg);
+
+}
+
+.s-com:hover {
+  border: 223px 204px;
+  /* left: 903px; */
+  top: 209px;
+
+  border-radius: 30px;
+  transition-duration: 1s;
+
+  transform: scale(1.1) rotate(30deg);
+
+}
+
+
+.result {
+  margin-top: 71px;
+
+  align-items: center;
+}
+
+
+
+.versus {
+  color: #BD0000;
+  font-size: 144px;
+  display: flex;
+  flex-direction: column;
+  /* display: initial; */
+
+}
+
+.pl-win {
+  position: absolute;
+  width: 271.11px;
+  height: 166.93px;
+  color: white;
+  padding-top: 22%;
+
+  background: #4C9654;
+  border-radius: 10px;
+  transform: rotate(-28.87deg);
+  display: none;
+
+
+}
+
+.com-win {
+  position: absolute;
+  width: 271.11px;
+  height: 166.93px;
+  color: white;
+  padding-top: 22%;
+
+  background: #4C9654;
+  border-radius: 10px;
+  transform: rotate(-28.87deg);
+  display: none;
+
+
+}
+
+.draw {
+  background: #035B0C;
+  position: absolute;
+  width: 271.11px;
+  height: 166.93px;
+  color: white;
+  padding-top: 22%;
+
+  background: #4C9654;
+  border-radius: 10px;
+  transform: rotate(-28.87deg);
+  display: none;
+
+
+
+}
+
+.refresh {
+  position: absolute;
+  width: 77px;
+  height: 71px;
+  margin-top: 238px;
+  align-items: center;
+  margin-left: 120px;
+
+
+
+
+
+}
+
+.computer {
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* end of vs com styling */
+
+/* vs player styling */
+.vsPlayer {
+  background-color: slategrey;
+}
+
+.vsPlayer:hover {
+  box-shadow: 0 0 25px rgba(245, 173, 66, 0.75),
+    0 0 25px rgba(245, 173, 66, 0.75),
+    0 0 50px rgba(245, 173, 66, 0.75),
+    0 0 100px rgba(245, 173, 66, 0.75);
+
+}
+
+/* end of vs player styling */
+
+/* game history styling */
+.history h1 {
+  color: rgb(216, 43, 43);
+  font-weight: bolder;
+  margin-top: 21px;
+}
+.history-table{
+  margin-top: 51px;
+}
+
+/* footer styling */
+
+.footer {
+  margin-top:85vh;
+  background-color:black;
+  padding: 5px;
+  
+}
+
+.footer-content {
+
+ 
+  align-items: center;
+}
+
